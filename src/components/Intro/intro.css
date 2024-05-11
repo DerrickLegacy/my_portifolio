@@ -8,11 +8,12 @@
 }
 
 .bg {
+  object-fit: contain;
   position: absolute;
-  top: -4rem;
+  top: 0rem;
   right: 0;
   z-index: -1;
-  object-fit: cover;
+  /* object-fit: cover; */
   height: 100vh;
   /* margin-right: 3rem;  */
   border-radius: 10px;
@@ -39,6 +40,14 @@
 }
 
 .introPara {
+  font-size: medium;
+  font-weight: 300;
+}
+
+.githubrepo{
+  color: yellow;
+}
+.githubrepo:hover{
   font-size: medium;
   font-weight: 300;
 }

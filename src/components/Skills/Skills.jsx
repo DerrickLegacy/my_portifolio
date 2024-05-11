@@ -9,9 +9,9 @@ function Skills() {
     return (
         <section id='skills'>
             <span className="skillTitle">What I Do</span>
-            <spna className="skillDescription">
+            <span className="skillDescription">
                 Seasoned full-stack developer adept at building robust web applications from concept to deployment. Proficient in both front-end and back-end development, with a focus on delivering scalable and user-centric solutions.
-            </spna>
+            </span>
             <div className="skillBars">
                 <div className="skillBar">
                     <img src={UIDesignerImg} alt="UI Design" className="skillBarImg" />
